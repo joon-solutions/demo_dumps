@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 9a072f3b246daa2573bcd05d590f11e79fe41336 Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768984644 +0700	commit (initial): docs: initialize project
+9a072f3b246daa2573bcd05d590f11e79fe41336 5c5e105c6f37ad53678bb2698a70c486185cc423 Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768985158 +0700	commit: chore: add project config
+5c5e105c6f37ad53678bb2698a70c486185cc423 8c5ff3a40799fabb5a8854f2c5d399d2c1ce6e23 Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768989028 +0700	commit: docs: define v1 requirements
+8c5ff3a40799fabb5a8854f2c5d399d2c1ce6e23 d5451d27df9de16bfd8c0f909b2ec7c7e97d6622 Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768989185 +0700	commit: docs: create roadmap (7 phases)
+d5451d27df9de16bfd8c0f909b2ec7c7e97d6622 5e60bc8329efa3d478448d0b5b02f5ba7bc56e2a Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768989865 +0700	commit: docs: plan Phase 1 - Data Model & Schema
+5e60bc8329efa3d478448d0b5b02f5ba7bc56e2a 8ff7c3f7ad3e892d4fcad405e263e81babbddbe7 Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768990082 +0700	commit: feat(01-01): create dim_customer schema
+8ff7c3f7ad3e892d4fcad405e263e81babbddbe7 c680b5975c83ab0e93671dae9bfc58607f1769bf Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768990125 +0700	commit: feat(01-01): create dim_account schema
+c680b5975c83ab0e93671dae9bfc58607f1769bf 852bfaa22b7ca644533739c0aecf0c495b839fbe Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768990165 +0700	commit: feat(01-01): create dim_product schema
+852bfaa22b7ca644533739c0aecf0c495b839fbe 0734d251662b656396929777496d62db79fb5daf Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768990209 +0700	commit: feat(01-01): create dim_merchant schema
+0734d251662b656396929777496d62db79fb5daf 8f6ac5b5e7586808b200eff2a0ae8e6ac5da66fb Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768990278 +0700	commit: feat(01-01): create dim_date schema
+8f6ac5b5e7586808b200eff2a0ae8e6ac5da66fb aeedf930606d8a41f82676c4c93cec918542d8f7 Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768990323 +0700	commit: feat(01-02): create fact_transaction schema
+aeedf930606d8a41f82676c4c93cec918542d8f7 3bc60a126b80a90ba416af8e0ed50c49c0ef0ae7 Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768990372 +0700	commit: feat(01-02): create fact_account_snapshot schema
+3bc60a126b80a90ba416af8e0ed50c49c0ef0ae7 3b9b2ce495be675fcbdc0db05609166ba7fba1c1 Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768990421 +0700	commit: feat(01-02): create fact_interaction schema
+3b9b2ce495be675fcbdc0db05609166ba7fba1c1 524028d9911d1be848ba365c0b6294d04578baed Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768990468 +0700	commit: feat(01-02): create fact_loan_schedule schema
+524028d9911d1be848ba365c0b6294d04578baed 3802514daa53bcc8483f5513fd288bb596098ca6 Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768990524 +0700	commit: docs(01-02): document data model schema
+3802514daa53bcc8483f5513fd288bb596098ca6 55d7f12d9bbfbad6342116ce65f174abc00c14a7 Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768990596 +0700	commit: docs(01): complete plan summaries
+55d7f12d9bbfbad6342116ce65f174abc00c14a7 befc13ee9912fe2e34b6bd5ec59aa4e36eb78072 Duong Vu Ta <duongvuta@Duongs-MacBook-Pro.local> 1768990709 +0700	commit: docs(01): complete data-model-schema phase

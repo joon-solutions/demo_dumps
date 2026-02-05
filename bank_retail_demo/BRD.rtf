@@ -1,0 +1,103 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww30040\viewh18900\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # Project Proposal: Next-Gen Retail Banking Customer 360 Dashboard (Using Looker)\
+\
+**Context:** Proof of Concept (POC) for Senior Management  \
+**Goal:** Shift from a static "Product-View" to a dynamic "Customer-Lifestyle-View."  \
+**Key Feature:** Integrating behavioral spending data to drive "Next Best Actions."\
+\
+---\
+\
+## 1. Executive Summary\
+Current banking dashboards show us *what* products a customer has (Balances). This new Customer 360 dashboard tells us *who* the customer is (Behavior).\
+\
+By visualizing **Spending Habits** and **Life Stages**, we empower Relationship Managers (RMs) to move from reactive service to proactive advising.\
+\
+---\
+\
+## 2. Dashboard Architecture (The 3-Level Drill Down)\
+\
+The dashboard is designed hierarchically to serve three distinct user groups.\
+\
+### Level A: Executive View (The "Bird\'92s Eye")\
+*Strategic health of the bank.*\
+| KPI Name | Description | Visual |\
+| :--- | :--- | :--- |\
+| **Portfolio Health** | Total Assets (AUM) vs. Liabilities (LUM). | Dual Bar Chart |\
+| **Share of Wallet** | Avg. Products held per customer (e.g., 2.4). | Big Number Trend |\
+| **Segment Heatmap** | Profitability by segment (e.g., Millennials vs. HNW). | Heatmap |\
+\
+### Level B: Segment View (The "Analyst")\
+*Identifying market trends and leakage.*\
+| KPI Name | Description | Visual |\
+| :--- | :--- | :--- |\
+| **Wallet Leakage** | Funds transferred to external Fintechs/Competitors. | Red Bar Chart |\
+| **Channel Mix** | Mobile App vs. Branch usage % by segment. | Pie Chart |\
+\
+### Level C: Individual View (The "Relationship Manager")\
+*The primary focus of this POC (The "Kristen Stewart" View).*\
+* **Profile Header Enhancements:**\
+    * **Persona Tag:** (e.g., `Frequent Traveler` or `Young Parent`) derived from spending data.\
+    * **Engagement Score:** (0-100) based on login frequency.\
+    * **Churn Risk:** (Low/Med/High) based on balance trends.\
+\
+---\
+\
+## 3. The "Customer Portfolio" Deep Dive (The Red Box)\
+*This section transforms the standard account list into an insight engine.*\
+\
+### Tab 1: CASA (Checking/Savings)\
+*Focus: Liquidity & Flow*\
+* **Metric: Cash Flow Velocity:** A comparison of Monthly Inflow vs. Monthly Outflow.\
+    * *Insight:* Is the customer saving money or burning cash?\
+* **Metric: Salary Detector:** Highlight the recurring date of salary credit.\
+\
+### Tab 2: CARDS (The "Wow" Factor)\
+*Focus: Lifestyle & Habits*\
+* **Metric: Spend by Category (Donut Chart):**\
+    * *Visual:* Breakdown of spend (e.g., 30% Dining, 20% Travel, 50% Retail).\
+* **Metric: Top Merchants:** A list of the top 3 brands they shop at (e.g., Amazon, Shell, Starbucks).\
+* **Metric: Credit Utilization:** % of limit used (Financial Health Indicator).\
+\
+### Tab 3: LOANS\
+*Focus: Debt Management*\
+* **Metric: Repayment Progress:** A visual progress bar (e.g., "34% of Mortgage Principal Paid").\
+* **Metric: Pre-payment Potential:** Flag if their Savings balance is high enough to make a lump-sum payment.\
+\
+### Tab 4: INSURANCE\
+*Focus: Protection Gaps*\
+* **Metric: Coverage Gap Analysis:**\
+    * *Logic:* "Customer has Mortgage + Children (detected) -> But NO Life Insurance."\
+    * *Action:* Flags a "High Priority Cross-Sell" opportunity.\
+\
+### Tab 5: SECURITIES\
+*Focus: Wealth Growth*\
+* **Metric: Risk Appetite:** Gauge Chart (Conservative vs. Aggressive).\
+* **Metric: Portfolio ROI:** Year-to-date performance percentage.\
+\
+### Tab 6: LIFESTYLE (New Proposed Tab)\
+*Focus: Behavioral Intelligence*\
+* **Subscription Manager:** Detects recurring bills (Netflix, Spotify, Gym) to estimate fixed monthly costs.\
+* **Life Events:** Alerts for triggers like "New Baby" (Baby store spend) or "Relocation" (Mover hire).\
+\
+---\
+\
+## 5. Technical Strategy (Speed-to-Delivery)\
+*For the POC, we will use static JSON/CSV data sources to simulate the backend. No complex integrations required immediately.*\
+\
+**Data Requirements (Mock Data):**\
+1.  **Customer_Profile:** `Name`, `Job`, `KYC_Status`, `Persona_Tag`, `Engagement_Score`.\
+2.  **Accounts_Summary:** `Account_Type`, `Balance`, `Interest_Rate`, `Status`.\
+3.  **Transactions_Log (The Engine):**\
+    * `Merchant_Name` (e.g., Delta Airlines)\
+    * `MCC_Category` (e.g., Travel)\
+    * `Amount`\
+    * `Date`\
+\
+---\
+}

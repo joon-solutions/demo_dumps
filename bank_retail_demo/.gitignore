@@ -1,0 +1,21 @@
+# GSD - Intel is local-only (regenerated on demand)
+.planning/intel/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.env
+
+# Generated data
+*.csv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
